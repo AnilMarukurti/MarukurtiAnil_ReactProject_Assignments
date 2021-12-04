@@ -1,0 +1,14 @@
+.bg_container{
+    background-color: yellow;
+    height: 80vh;
+    padding: 15px;
+}
+
+.heading{
+    background-color: red;
+    padding: 2px;
+}
+.paragraph{
+    background-color: green;
+    font-weight: bold;
+}

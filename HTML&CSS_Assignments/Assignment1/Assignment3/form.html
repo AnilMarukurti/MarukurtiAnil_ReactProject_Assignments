@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="bg-container">
+        <h1>Application Form</h1>
+        <div>
+            <form>
+                <label for="name">Name:</label><br>
+                <input placeholder="Enter your name" type="text" id="name"/><br><br>
+
+                <label for="email">Email:</label><br>
+                <input placeholder="Enter your EmailId" type="email" id="email"/><br><br>
+
+                <label>Gender :</label>
+                <input type="radio" name="Male" id="male" value="Male"/>
+                <label for="male">male</label>
+
+                <input type="radio" name="Female" id="female" value="Female"/>
+                <label for="female">Female</label><br><br>
+
+
+                <label for="date">Date Of Birth:</label><br>
+                <input type="date" id="date"><br><br>
+
+                <label>Qualification:</label><br>
+                <input type="radio" id="b.tech" value="B.Tech"/>
+                <label for="b.tech">B.Tech</label>
+
+                <input type="radio" id="BE" value="BE"/>
+                <label for="BE">BE</label><br><br>
+
+                <label for="yop">Year Of Passing: </label>
+                <select name="yop" id="yop">
+                    <option value="2021" selected>2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                </select>
+                <br><br>
+
+                <label>Technollogies known : </label><br>
+                <input type="checkbox" id="Python" value="Python" />
+                <label for="Python">Python</label><br>
+
+                <input type="checkbox" id="Java" value="Java" />
+                <label for="Java">Java</label><br>
+
+                <input type="checkbox" id="C" value="C" />
+                <label for="C">C</label><br>
+
+                <input type="checkbox" id="C++" value="C++" />
+                <label for="C++">C++</label><br>
+
+                <input type="checkbox" id=".NET" value=".NET" />
+                <label for=".NET">.NET</label><br><br>
+
+                <label for="myFile">Resume : </label><br>
+                <input type="file" id="myFile" name="filename">
+                <br><br>
+
+                <label for="textarea">About Your Self :</label><br><br>
+                <textarea placeholder="Tell us about your self...." id="textarea" cols="50" rows="5"></textarea>
+                <br><br>
+                <button>Send Your Application</button>
+
+            </form>
+        </div>
+        </div>
+    </body>
+</html>

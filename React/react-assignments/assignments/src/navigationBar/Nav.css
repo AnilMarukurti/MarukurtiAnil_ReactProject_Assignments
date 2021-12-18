@@ -1,0 +1,22 @@
+ul{
+    text-align: center;
+    text-decoration: none;
+    background-color: #09585eb2;
+    padding: 15px;
+  }
+  li{
+    display: inline;
+    padding: 15px;
+    color: white;
+    margin: 10px;
+  
+  }
+  span{
+    color: white;
+    background-color: #e9dfdf;
+    padding: 5px;
+  }
+  h4{
+    text-align: center;
+  }
+  
